@@ -1,6 +1,6 @@
 import axios from 'axios';
 import queryString from 'query-string';
-const REACT_APP_API_URL = 'http://localhost:5000/api';
+const REACT_APP_API_URL = 'https://huy-sneaker-store.herokuapp.com/api';
 
 const axiosClient = axios.create({
   baseURL: REACT_APP_API_URL,

@@ -61,7 +61,7 @@ const UserContextProvider = ({ children }) => {
   }, [socket]);
   // connect and get user if have token
   useEffect(async () => {
-    const socketIo = io('http://localhost:5000', {
+    const socketIo = io('https://huy-sneaker-store.herokuapp.com', {
       withCredentials: true,
       extraHeaders: {
         'Access-Control-Allow-Origin': '*',
